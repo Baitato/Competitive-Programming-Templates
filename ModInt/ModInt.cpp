@@ -280,3 +280,11 @@ struct DynModInt {
     u32            x;
     static Barrett bt;
 };
+
+const int MOD = 1000000007;
+const int mod = 998244353;
+
+template<u32 Id>
+Barrett DynModInt<Id>::bt = MOD;
+
+using Z = ModInt<MOD>;
