@@ -1,0 +1,21 @@
+{
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.includePath": [
+        "${default}",
+        "C:/Programs/gcc14-64-winlibs/include/c++/14.2.0",
+        "C:/Programs/gcc14-64-winlibs/include/c++/14.2.0/x86_64-w64-mingw32"
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--compile-commands-dir=${workspaceFolder}",
+        "--clang-tidy"
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp"
+    }
+}

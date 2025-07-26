@@ -1,1 +1,4 @@
-"# Competitive-Programming-Templates" 
+Competitive Programming Templates
+
+Credits - 
+ModInt - jiangly

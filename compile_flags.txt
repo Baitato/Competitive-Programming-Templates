@@ -1,0 +1,6 @@
+-xc++
+-std=c++20
+-Wall
+-Wextra
+-I/Programs/gcc14-64-winlibs/include/c++/14.2.0/
+-I/Programs/gcc14-64-winlibs/include/c++/14.2.0/x86_64-w64-mingw32/
